@@ -5,7 +5,11 @@ def fizzbuzz(num)
     return "buzz"
   elsif num % 3 == 0
     return "fizz"
+  elsif (num.is_a? Integer) == false
+    return "Please enter an Integer"  
   else
     return num
   end
 end
+
+

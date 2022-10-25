@@ -17,3 +17,9 @@ describe 'fizzbuzz' do
         expect(fizzbuzz(15)).to eq 'fizzbuzz'
     end 
 end 
+
+describe 'fizzbuzz' do
+  it 'return "Please enter an Integer" when passed "hello"' do
+    expect(fizzbuzz("hello")).to eq 'Please enter an Integer'
+  end
+end
